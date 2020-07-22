@@ -9,4 +9,4 @@ jobs:
       image: php:8.0.0alpha2-cli-buster
     steps:
       - uses: actions/checkout@v1
-      - runs: php -v
+      - run: php -v
